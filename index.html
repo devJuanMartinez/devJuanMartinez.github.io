@@ -3,100 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Mi</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-<body style="background-color: black;">
-    <!------------------------------------------------------ Navegador ------------------------------------------------------>
-
-    <nav style="width: 100%; height: 100px; border-bottom: 5px #3EFFA2; border-style: solid;">
-        <section style="display: flex; color: white; width: 100%; justify-content: space-between;">
-            <div class="infoNav" style="color: white; margin-left: 30px;">
-                <p style="font-size: 30px;">Juan</p>
-                <p style="font-size: 25px; color: #3EFFA2;">Software Developer</p>
-            </div>
-            <div style="font-size: 25px; border-radius: 10px; background-color: #1B402E; display: flex; align-items: center; padding: 0px 20px 0px 20px; color: black;">
-                <div style="border-radius: 10px; background-color: #3EFFA2; height: 40px; font-size: 25px;">
-                    <p>Sobre Mi</p>
-                </div>
-                <div style="border-radius: 10px; background-color: #3EFFA2; height: 40px; font-size: 25px;">
-                    <p>Trabajos</p>
-                </div>
-            </div>
-            <div>
-                <p style="font-size: 30px;">Linkedin</p>
-            </div>
-        </section>
+<body style="width: 100vw; height: 100vh;">
+    <nav style="display: flex; justify-content: right; background-color: #dddddd;">
+        <p>Juan Martienz</p>
+        <img src="./img/centroAplicaciones.png" width="20px" height="20px">
+        <button>Contacta</button>
     </nav>
+    <div style="width: 100%; height: 70vh; align-content: center;">
 
-    <!------------------------------------------------------ Intro ---------------------------------------------------------->
-
-    <section style="width: 100%; display: flex; color: white; justify-content: space-between;">
-        <div>
-            <img src="./img/circuloPequenio.png">
-        </div>
-        <div>
+        <div style="width: 100%; display: flex; justify-content: center;">
             <div>
+                <h1 style="font-size: 100px;"><span style="color: #4385F4; margin-right: 4px;">J</span><span style="color: #E94235; margin-right: 4px;">u</span><span style="color: #FABB08; margin-right: 4px;">a</span><span style="color: #34A852">n</span></h1>
 
-            </div>
-            <div>
-                <p>Hola, soy Juan</p>
-                <p>Un software developer de 19 años</p>
+                <h3 style="color: #8BB2F8; font-size: 20px; margin-top: -25px; margin-left: 142px;">Martinez</h3>
             </div>
         </div>
-        <div>
-            <img src="../img/semicirculoIzquierda.png" alt="">
-        </div>
-    </section>
 
-    <!------------------------------------------------------ Sobre Mí ------------------------------------------------------>
-
-    <section style="width: 100%; display: flex; color: white; justify-content: space-between; margin-bottom: 400px;">
-        <div style="background-image:url(./img/semicirculoDerechaContenido.png); width: 490px; height: 650px;">
-            <div style="margin-top: 280px; margin-left: 100px; font-size: 50px;">
-                <p style="color: #3EFFA2;">Sobre Mi</p>
+       <section style="display: flex; justify-content: center;">
+            <div style="height: 50px; width: 30%; border-style: solid; border-color: #8BB2F8; border-width: 1px;">
+                <span class="typed" style="font-size: 30px;"></span>
             </div>
-        </div>
-        <div>
-            <img src="./img/capturaPlans.png" style="border-style: solid; border-color: #3EFFA2; border-width: 5px; border-radius: 20px;">
-        </div>
-        <div style="align-content: flex-end;">
-            <img src="./img/cuadradoypuntosIzquierda.png" alt="" style="margin-bottom: -100px;">
-        </div>
-    </section>
+       </section>
 
-    <!------------------------------------------------------ WikiFutbol ------------------------------------------------------>
-
-    <section style="width: 100%; display: flex; color: white; justify-content: space-between;">
-        <div style="display: flex; flex-direction: column;">
-            <img src="./img/cuadradoypuntosDerecha.png" alt="" style="margin-top: -200px;">
-            <img src="./img/esquinarectanguloDerecha.png" alt="">
+        <div style="display: flex; justify-content: center; margin-top: 10px;">
+            <button style="width: 100px; height: 35px; border-style: solid; border-width: 1px; border-color: #999999; background: linear-gradient(white,#DFDFDF, #DFDFDF); margin-right: 10px;"><a href="./html/sobreMi.html" style="text-decoration: none; color: black;">Sobre Mí</a></button>
+            <button style="width: 100px; height: 35px; border-style: solid; border-width: 1px; border-color: #999999; background: linear-gradient(white,#DFDFDF, #DFDFDF); margin-right: 10px;"><a href="./html/trabajos.html" style="text-decoration: none; color: black;">Trabajos</a></button>
+            <button style="width: 100px; height: 35px; border-style: solid; border-width: 1px; border-color: #999999; background: linear-gradient(white,#DFDFDF, #DFDFDF)"><a href="#" style="text-decoration: none; color: black;">Contacto</a></button>
         </div>
-        
-        <div>
-            <img src="./img/capturaPlans.png" style="border-style: solid; border-color: #3EFFA2; border-width: 5px; border-radius: 20px;">
-        </div>
-        
-        <div style="background-image:url(./img/semicirculoIzquierdaContenido.png); width: 490px; height: 650px;">
-            <div style="margin-top: 130px; margin-left: 200px;">
-                <p style="color: #3EFFA2;">Nº2</p>
-                <p>WikiFutbol</p>
+    </div>
 
-                <div>
-                    <p>UX/UI</p>
-                </div>
-                <div>
-                    <p>Footbal App</p>
-                </div>
-                <div>
-                    <p>App Development</p>
-                </div>
-            
-                <p>View Project</p>
-            </div>
-        </div>
-    </section>
 
-    <script src="index.js"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="descripcionIndex.js"></script>
 </body>
 </html>

@@ -1,4 +1,8 @@
-* {
-	margin: 0;
-	padding: 0;
+*{
+    margin: 0;
+    padding: 0;
 }
+
+.typed-cursor {
+    font-size: 30px;
+  }
