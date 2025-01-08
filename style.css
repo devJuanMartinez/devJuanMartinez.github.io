@@ -1,0 +1,57 @@
+body{
+    position: relative;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    color: black;
+    transition: 0.5s ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    height: 30%;
+    width: auto;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: fit-content;
+    list-style: none;
+}
+
+.menu-item{
+    font-size: 14px;
+    margin: 0 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.highlight{
+    color: #0075fa;
+}
+
+.scrolled{
+    color: white;
+    background-color: black;
+    box-shadow: 0px 3px 8px rgb(255, 255, 255);
+}
+
+.scrolled .logo{
+    filter: invert(1);
+}
