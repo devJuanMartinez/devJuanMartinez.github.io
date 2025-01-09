@@ -5,6 +5,7 @@ var contacto = document.getElementById('contacto');
 var cv = document.getElementById('cv');
 
 
+
 document.addEventListener("scroll", function(){
     var scroll = window.scrollY;
     if(scroll > 10){
