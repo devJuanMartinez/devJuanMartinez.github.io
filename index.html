@@ -291,7 +291,7 @@
 
     <!------------------------------------------------------ Sobre Mi ---------------------------------------------------------->
 
-    <section id="navSobreMi" style="width: 90%; height: 80vh; display: flex; color: white; justify-content: center; margin-bottom: 180px; margin-top: 100px; background-color: black; border-radius: 30px; margin-left: 100px;">
+    <section id="navSobreMi" style="width: 90%; height: 80vh; display: flex; color: white; justify-content: center; margin-bottom: 180px; margin-top: 100px; background-color: black; border-radius: 30px; margin-left: 5%;">
         <div data-aos="zoom-in" style="width: 33%; display: flex;">
             <div style="margin: auto 0; margin-right: 20px;">
                 <!-- <img src="./img/perfil.png" width="300px" height="300px" style="border: solid #3EFFA2 10px; border-radius: 500px;"> -->
@@ -301,6 +301,34 @@
                 <h1> Mi nombre es <span style="color: #3EFFA2;">Juan</span></h1>
                 <span class="typed" style="font-size: 30px"></span>
             </div>
+        </div>
+        <div style="display: flex; height: 40px; font-size: 25px; background-color: rgb(49, 49, 49); justify-content: center;">
+            <a href="./img/CV-Idea (5).pdf" download="cvJuan">
+                <button id="button" class="ready" onclick="clickButton();" >
+      
+                    <div class="message submitMessage">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 12.2">
+                        <polyline stroke="currentColor" points="2,7.1 6.5,11.1 11,7.1 "/>
+                        <line stroke="currentColor" x1="6.5" y1="1.2" x2="6.5" y2="10.3"/>
+                      </svg> <span class="button-text">Download CV</span>
+                    </div>
+                    
+                    <div class="message loadingMessage">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 17">
+                        <circle class="loadingCircle" cx="2.2" cy="10" r="1.6"/>
+                        <circle class="loadingCircle" cx="9.5" cy="10" r="1.6"/>
+                        <circle class="loadingCircle" cx="16.8" cy="10" r="1.6"/>
+                      </svg>
+                    </div>
+                    
+                    <div class="message successMessage">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 11">
+                        <polyline stroke="currentColor" points="1.4,5.8 5.1,9.5 11.6,2.1 "/>
+                      </svg> <span class="button-text">Success</span>
+                    </div>
+                </button>
+                <canvas id="canvas"></canvas>
+            </a>
         </div>
         <!-- <div data-aos="fade-left" style="width: 33%; display: flex; justify-content: right;">
             <img src="../img/semicirculoIzquierda.png" style="margin-top: 50px;">
