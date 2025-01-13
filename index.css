@@ -115,7 +115,7 @@ nav {
 
     backdrop-filter: blur(40px);
     color: rgb(0, 0, 0);
-    background-color: rgba(236, 236, 236, 0.8);
+    background-color: rgba(148, 148, 148, 0.8);
 
     transition: width 1.5s, max-height 2s 1s;
 }
@@ -509,7 +509,7 @@ button.complete .successMessage svg {
     height: 250px;
     width: 250px;
     border-radius: 50%;
-    background: conic-gradient(#2a83e8 3.6deg, #e3e3e3 0deg);
+    background: conic-gradient(#3EFFA2 3.6deg, #e3e3e3 0deg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -528,13 +528,13 @@ button.complete .successMessage svg {
     position: relative;
     font-size: 40px;
     font-weight: 600;
-    color: blue;
+    color: rgb(0, 0, 0);
 }
 
 .text{
     font-size: 28px;
     font-weight: 500;
-    color: #606060;
+    color: #000000;
     margin: 0 auto;
 }
 

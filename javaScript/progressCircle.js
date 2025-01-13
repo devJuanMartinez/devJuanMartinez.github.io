@@ -52,7 +52,7 @@ let progressHTML = setInterval(() => {
     progressStartValueHTML++;
 
     progressValueHTML.textContent = `${progressStartValueHTML}%`
-    circularProgressHTML.style.background = `conic-gradient(#2a83e8 ${progressStartValueHTML * 3.6}deg, #ededed 0deg)`
+    circularProgressHTML.style.background = `conic-gradient(#3EFFA2 ${progressStartValueHTML * 3.6}deg, #ededed 0deg)`
 
     if(progressStartValueHTML == progressEndValueHTML){
         clearInterval(progressHTML);
@@ -63,7 +63,7 @@ let progressCSS = setInterval(() => {
     progressStartValueCSS++;
 
     progressValueCSS.textContent = `${progressStartValueCSS}%`
-    circularProgressCSS.style.background = `conic-gradient(#2a83e8 ${progressStartValueCSS * 3.6}deg, #ededed 0deg)`
+    circularProgressCSS.style.background = `conic-gradient(#3EFFA2 ${progressStartValueCSS * 3.6}deg, #ededed 0deg)`
 
     if(progressStartValueCSS == progressEndValueCSS){
         clearInterval(progressCSS);
@@ -74,7 +74,7 @@ let progressPHP = setInterval(() => {
     progressStartValuePHP++;
 
     progressValuePHP.textContent = `${progressStartValuePHP}%`
-    circularProgressPHP.style.background = `conic-gradient(#2a83e8 ${progressStartValuePHP * 3.6}deg, #ededed 0deg)`
+    circularProgressPHP.style.background = `conic-gradient(#3EFFA2 ${progressStartValuePHP * 3.6}deg, #ededed 0deg)`
 
     if(progressStartValuePHP == progressEndValuePHP){
         clearInterval(progressPHP);
@@ -85,7 +85,7 @@ let progressJS = setInterval(() => {
     progressStartValueJS++;
 
     progressValueJS.textContent = `${progressStartValueJS}%`
-    circularProgressJS.style.background = `conic-gradient(#2a83e8 ${progressStartValueJS * 3.6}deg, #ededed 0deg)`
+    circularProgressJS.style.background = `conic-gradient(#3EFFA2 ${progressStartValueJS * 3.6}deg, #ededed 0deg)`
 
     if(progressStartValueJS == progressEndValueJS){
         clearInterval(progressJS);
@@ -96,7 +96,7 @@ let progressAS = setInterval(() => {
     progressStartValueAS++;
 
     progressValueAS.textContent = `${progressStartValueAS}%`
-    circularProgressAS.style.background = `conic-gradient(#2a83e8 ${progressStartValueAS * 3.6}deg, #ededed 0deg)`
+    circularProgressAS.style.background = `conic-gradient(#3EFFA2 ${progressStartValueAS * 3.6}deg, #ededed 0deg)`
 
     if(progressStartValueAS == progressEndValueAS){
         clearInterval(progressAS);
@@ -107,7 +107,7 @@ let progressJ = setInterval(() => {
     progressStartValueJ++;
 
     progressValueJ.textContent = `${progressStartValueJ}%`
-    circularProgressJ.style.background = `conic-gradient(#2a83e8 ${progressStartValueJ * 3.6}deg, #ededed 0deg)`
+    circularProgressJ.style.background = `conic-gradient(#3EFFA2 ${progressStartValueJ * 3.6}deg, #ededed 0deg)`
 
     if(progressStartValueJ == progressEndValueJ){
         clearInterval(progressJ);
@@ -118,7 +118,7 @@ let progressSQL = setInterval(() => {
     progressStartValueSQL++;
 
     progressValueSQL.textContent = `${progressStartValueSQL}%`
-    circularProgressSQL.style.background = `conic-gradient(#2a83e8 ${progressStartValueSQL * 3.6}deg, #ededed 0deg)`
+    circularProgressSQL.style.background = `conic-gradient(#3EFFA2 ${progressStartValueSQL * 3.6}deg, #ededed 0deg)`
 
     if(progressStartValueSQL == progressEndValueSQL){
         clearInterval(progressSQL);
@@ -129,7 +129,7 @@ let progressXC = setInterval(() => {
     progressStartValueXC++;
 
     progressValueXC.textContent = `${progressStartValueXC}%`
-    circularProgressXC.style.background = `conic-gradient(#2a83e8 ${progressStartValueJ * 3.6}deg, #ededed 0deg)`
+    circularProgressXC.style.background = `conic-gradient(#3EFFA2 ${progressStartValueJ * 3.6}deg, #ededed 0deg)`
 
     if(progressStartValueXC == progressEndValueXC){
         clearInterval(progressXC);
