@@ -1,8 +1,9 @@
 const typed = new Typed('.typed', {
     strings: [
-        'Soy un software developer de 19 años',
-        'asdasddasd',
-        'asdasddaads'],
+        'Soy un software developer de 19 años.',
+        // 'asdasddasd',
+        // 'asdasddaads'
+      ],
         typeSpeed: 55,
         backSpeed: 30,
         backDelay: 500,
