@@ -851,7 +851,7 @@ body {
 
 
 /* Laptop */
-@media (max-width: 1440px) {
+@media (max-width: 1445px) {
     body{
         background-color: #4035db;
     }
@@ -872,82 +872,6 @@ body {
         background-color: yellow;
         /* width: 768px; */
     }
-    /* Efecto del hover de los botones de la cabecera */
-    .btcabecera {
-        letter-spacing: 0;
-        text-decoration: none; 
-        color: black;
-    }
-
-    .btcabecera:hover,
-    .btcabecera:active {
-        letter-spacing: 0;
-    }
-
-    .btcabecera:after,
-    .btcabecera:before {
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-        border: 1px solid rgba(255, 255, 255, 0);
-        bottom: 0px;
-        content: " ";
-        display: block;
-        margin: 0 auto;
-        position: relative;
-        -webkit-transition: all 300ms ease-in-out;
-        transition: all 300ms ease-in-out;
-        width: 0;
-    }
-
-    .btcabecera:hover:after,
-    .btcabecera:hover:before {
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-        border-color: #3EFFA2;
-        -webkit-transition: width 500ms ease-in-out;
-        transition: width 500ms ease-in-out;
-        width: 100%;
-    }
-
-    .btcabecera:hover:before {
-        bottom: auto;
-        top: 0;
-        width: 100%;
-    }
-
-    /* Funcion de scroll de la cabecera */
-
-
-    header{
-        height: 80px;
-        width: 100vw;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 4rem;
-        box-sizing: border-box;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color: transparent;
-        color: black;
-        transition: 0.5s ease-in-out;
-        position: fixed;
-        top: 0;
-        left: 0;
-    }
-
-    .scrolledFondo{
-        color: white;
-        background-color: black;
-        box-shadow: 0px 3px 8px rgb(255, 255, 255);
-        z-index: 2;
-    }
-
-    .scrolledTexto{
-        color: white;
-    }
-
 
     /*Navegacion*/
 
@@ -1216,82 +1140,6 @@ body {
     body{
         background-color: red;
     }
-    /* Efecto del hover de los botones de la cabecera */
-    .btcabecera {
-        letter-spacing: 0;
-        text-decoration: none; 
-        color: black;
-    }
-
-    .btcabecera:hover,
-    .btcabecera:active {
-        letter-spacing: 0;
-    }
-
-    .btcabecera:after,
-    .btcabecera:before {
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-        border: 1px solid rgba(255, 255, 255, 0);
-        bottom: 0px;
-        content: " ";
-        display: block;
-        margin: 0 auto;
-        position: relative;
-        -webkit-transition: all 300ms ease-in-out;
-        transition: all 300ms ease-in-out;
-        width: 0;
-    }
-
-    .btcabecera:hover:after,
-    .btcabecera:hover:before {
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-        border-color: #3EFFA2;
-        -webkit-transition: width 500ms ease-in-out;
-        transition: width 500ms ease-in-out;
-        width: 100%;
-    }
-
-    .btcabecera:hover:before {
-        bottom: auto;
-        top: 0;
-        width: 100%;
-    }
-
-    /* Funcion de scroll de la cabecera */
-
-
-    header{
-        height: 80px;
-        width: 100vw;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        /* padding: 0 4rem; */
-        box-sizing: border-box;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color: transparent;
-        color: black;
-        transition: 0.5s ease-in-out;
-        position: fixed;
-        top: 0;
-        left: 0;
-    }
-
-    .scrolledFondo{
-        color: white;
-        background-color: black;
-        box-shadow: 0px 3px 8px rgb(255, 255, 255);
-        z-index: 2;
-    }
-
-    .scrolledTexto{
-        color: white;
-    }
-
 
     /*Navegacion*/
 
