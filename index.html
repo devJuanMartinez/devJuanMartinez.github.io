@@ -13,7 +13,7 @@
     <!------------------------------------------------------ Navegador ------------------------------------------------------>
 
     <header id="Header">
-        <div class="divSobreMi1">
+        <div class="divSobreMi">
             <a href="#navSobreMi" class="btcabecera" id="sobremi">Sobre Mi</a>
         </div>
         <div class="divTrabajos">
@@ -73,7 +73,7 @@
     <!------------------------------------------------------ Sobre Mi ---------------------------------------------------------->
 
     <section id="navSobreMi" class="sectionSobreMi">
-        <div class="divSobreMi">
+        <div class="divSobreMi1">
             <div data-aos="zoom-in" class="divPresen">
                 <div class="divPresen2">
                      <img src="./img/Logo Vector (1).png" class="ImgSobreMi">
@@ -114,11 +114,15 @@
         </div>
     </section>
 
-    <!------------------------------------------------------ Plans ------------------------------------------------------>
-    <section class="sctPlans" id="navTrabajos">
+    <!------------------------------------------------------ Trabajos ------------------------------------------------------>
+    <div id="navTrabajos" style="display: flex; justify-content: center;">
         <h2 class="h2Plans">Trabajos</h2>
+    </div>
+    <!------------------------------------------------------ Plans ------------------------------------------------------>
+    <section class="sctPlans" >
+        <!-- <h2 class="h2Plans">Trabajos</h2> -->
         <div class="divPlans">
-            <!-- <div data-aos="fade-right" class="divContentPlans">
+            <div data-aos="fade-right" class="divContentPlans">
                 <div class="divTextPlans">
                     <p style="color: #3EFFA2;">Plans</p>
                     <div>
@@ -134,7 +138,7 @@
                         <a href="https://github.com/devJuanMartinez/Plans">View Project</a>
                     </div>
                 </div>
-            </div> -->
+            </div>
             <div data-aos="flip-up" class="divCapPlans">
                 <img src="./img/capturaPlans.png" style="height: 680px; width: 99%; margin: auto 0;">
             </div>
@@ -149,7 +153,7 @@
 
     <section class="sctWF">
         <div data-aos="flip-left" class="divIconosDerechaWF">
-            <!-- <img src="./img/cuadradoypuntosDerecha.png" alt="" style="margin-top: -200px;"> -->
+            <img src="./img/cuadradoypuntosDerecha.png" alt="" style="margin-top: -200px;">
             <img src="./img/esquinarectanguloDerecha.png" alt="">
         </div>
         
@@ -157,7 +161,7 @@
             <img src="./img/WikiFutbol.png" style="height: 700px;">
         </div>
         
-        <!-- <div data-aos="fade-left" class="divContWF">
+        <div data-aos="fade-left" class="divContWF">
             <div class="divTextWF">
                 <p style="color: #3EFFA2;">WikiFutbol</p>
                 <div>
@@ -173,7 +177,7 @@
                     <a href="https://github.com/devJuanMartinez/WikiFutbol">View Project</a>
                 </div>
             </div>
-        </div> -->
+        </div>
     </section>
 
     <!------------------------------------------------------ App Villacarrillo ------------------------------------------------------>
@@ -208,11 +212,11 @@
 
     <!------------------------------------------------------ Conocimientos ------------------------------------------------------>
 
-    <!-- <section id="navConocimientos" class="sctCon">
+    <section id="navConocimientos" class="sctCon">
         <h2 style="color: black; font-size: 70px;">Conocimientos</h2>
 
-        <div style="display: flex; margin-top: 100px;">
-            <div class="c">
+        <div class="cirsulosDiv">
+            <div class="c ">
                 <div class="circular-progress circular-progressHTML">
                     <span class="progress-value progress-valueHTML">0%</span>
                 </div>
@@ -220,7 +224,7 @@
                 <span class="text">HTML</span>
             </div>
     
-            <div class="c ci">
+            <div class="c ci ">
                 <div class="circular-progress circular-progressCSS">
                     <span class="progress-value progress-valueCSS">0%</span>
                 </div>
@@ -228,7 +232,7 @@
                 <span class="text">CSS</span>
             </div>
 
-            <div class="c ci">
+            <div class="c ci ">
                 <div class="circular-progress circular-progressPHP">
                     <span class="progress-value progress-valuePHP">0%</span>
                 </div>
@@ -236,18 +240,14 @@
                 <span class="text">PHP</span>
             </div>
 
-            <div class="c ci">
+            <div class="c ci ">
                 <div class="circular-progress circular-progressJS">
                     <span class="progress-value progress-valueJS">0%</span>
                 </div>
     
                 <span class="text">Java Script</span>
             </div>
-
-        </div>
-
-        <div style="display: flex; margin-top: 150px;">
-            <div class="c">
+            <div class="c ">
                 <div class="circular-progress circular-progressAS">
                     <span class="progress-value progress-valueAS">0%</span>
                 </div>
@@ -255,7 +255,7 @@
                 <span class="text">Android Studio</span>
             </div>
 
-            <div class="c ci">
+            <div class="c ci ">
                 <div class="circular-progress circular-progressJ">
                     <span class="progress-value progress-valueJ">0%</span>
                 </div>
@@ -263,7 +263,7 @@
                 <span class="text">Java</span>
             </div>
 
-            <div class="c ci">
+            <div class="c ci ">
                 <div class="circular-progress circular-progressSQL">
                     <span class="progress-value progress-valueSQL">0%</span>
                 </div>
@@ -271,7 +271,7 @@
                 <span class="text">SQL Server</span>
             </div>
 
-            <div class="c ci">
+            <div class="c ci ">
                 <div class="circular-progress circular-progressXC">
                     <span class="progress-value progress-valueXC">0%</span>
                 </div>
@@ -279,9 +279,7 @@
                 <span class="text">X Code</span>
             </div>
         </div>
-
-
-    </section> -->
+    </section>
 
     <!------------------------------------------------------ Contacto ------------------------------------------------------>
 
