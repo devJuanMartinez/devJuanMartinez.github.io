@@ -937,9 +937,9 @@ body {
 
 /* Laptop */
 @media (max-width: 1445px) {
-    body{
+    /* body{
         background-color: #4035db;
-    }
+    } */
 
     header{
         width: 100vw;
@@ -956,9 +956,9 @@ body {
 
 /* Tablet */
 @media (max-width: 768px) {
-    body{
+    /* body{
         background-color: yellow;
-    }
+    } */
     /* Nav */
     Header{
         padding: 0;
@@ -1106,7 +1106,7 @@ body {
 
 /*--------------------------------------------------------------------------------------------------------------------------------------- Mobile M */
 @media (max-width: 425px) {
-    body{
+    /* body{
         background-color: blue;
-    }
+    } */
 }
